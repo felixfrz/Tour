@@ -1,0 +1,28 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: gainsboro;
+  
+}
+
+
+.close {
+  color: red;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  opacity: 0;
+}
+.close:hover {
+  opacity: 1;
+}
+.card {
+  position: relative;
+}
+
+.top {
+  margin-top: 30px;
+}
